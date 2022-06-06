@@ -80,8 +80,6 @@ interface Evaluator {
         return -1
     }
 
-
-
 }
 sealed class MathOperation {
     class Binary(val rank: Int, val op: BinFunc) : MathOperation()
